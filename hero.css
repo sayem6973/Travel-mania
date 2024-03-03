@@ -1,0 +1,315 @@
+body{
+    max-width: 1440px;
+    margin: 52px auto;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+    height: 100%;
+
+}
+/* shared css */
+
+.btn-primary{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: 0;
+
+}
+span{
+    color: #FF5400;
+}
+  
+.btn-subscribe{
+    width: 100%;
+    margin: 0 auto;
+}
+.btn-discount{
+    width: 324px;
+   height: 120px;
+    transform: rotate(-19.628deg);
+    position: relative;
+    bottom: 173px;
+    left: 339px;
+}
+/* header section css */
+
+.hero-travel-icon{
+    display: flex;
+    align-items: center;
+    
+}
+.hero-travel-icon img{
+    margin-right: 1rem ;
+
+}
+
+
+
+
+
+
+
+
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul{
+    display: flex;
+}
+nav ul>li{
+ list-style: none;
+}
+nav ul li>a {
+    text-decoration: none;
+    margin-right: 2.8rem;
+    
+}
+a:hover{
+color: #FF5400;
+}
+/* header image section */
+.header-title{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    padding-top: 108px;
+}
+
+
+.header-description{
+    color: #FFF;
+    text-align: center;
+    width: 676px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px auto;
+
+}
+.header-content{
+    
+
+}
+
+.header-image{
+    background-image: url(images/Group\ 13\ .png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    height: 500px;
+    flex-shrink: 0;
+    
+    
+
+    
+
+}
+
+.box-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    width: 174px;
+    height: 52px;
+    background-color: #fff;
+    margin-right: 1.5rem;
+    border-radius: 5px;
+    gap: 30px;
+    justify-content: center;
+    
+
+
+}
+/* popular section css */
+.popular-tour-section{
+    display: flex;
+    margin-top: 100px;
+
+}
+.popular-text-content{
+    width: 50%;
+    margin-right: 60px;
+
+}
+.popular-tour-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 0;
+}
+.popular-img>img{
+    width: 540px;
+    height: 80%;
+    margin-left: 120px;
+    
+}
+.popular-tour-description{
+    color: #5A5A5D;
+    font-weight: 400;
+    margin-bottom: 30px;
+    max-width: 577px;
+}
+.popular-text-content ul li{
+    margin-top: 10px; 
+}
+
+/* destination css */
+.destination-title{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.destination-description{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    margin: 20px auto;
+    font-weight: 400;
+
+}
+
+.img-container{
+  margin: 50px auto;
+}
+.row>img{
+    width: 100%;
+    
+}
+.row{
+    display: flex;
+    gap:24px;
+    margin-bottom: 24px;
+}
+.second-img-div{
+    display: grid;
+    grid-template-columns: 474px 574px 343px;
+}
+.last-img-div{
+    
+}
+/* choose us area css */
+
+.choose-us-title{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.choose-us-description{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    margin: 20px auto;
+}
+.choose-us-container{
+    display: flex;
+    gap: 56px;
+}
+.handpicked-hotels{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+}
+.service{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 30px;
+}
+
+.hotel-description{
+    color: #5A5A5D;
+    font-weight: 400;
+    width: 486px;
+}
+
+.best-price-area{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin:24px auto;
+    padding: 30px;
+}
+.get-lost{
+    margin-right: 170px;
+}
+/* login form */
+.login-container{
+    display: flex;
+    margin: 100px 0px;
+    align-items: center;
+}
+.form-container{
+    border-radius: 16px;
+     border: 1px solid #FF5400;
+     margin-right: 170px;
+     width: 674px;
+     height: 422px;
+     padding: 40px;
+}
+
+.form-container input{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.login-img-div{
+    padding-top:40px;
+}
+
+/* footercss */
+footer{
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.hero-travel-icon-footer{
+    width: 18%;
+    margin: 0 auto;
+    position: relative;
+    top: 110px
+
+}
+.footer-description{
+    width: 769px;
+    color: #5A5A5D;
+    font-weight: 400;
+    margin: 10px auto;
+    position: relative;
+    top: 120px
+
+}
+.icon-img {
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+.icon-img img{
+    margin: 10px;
+}
+.icon-img h4{
+    margin-top: 150px;
+    color: #FFF;
+}
+footer>p{
+    text-align: center;
+}
+

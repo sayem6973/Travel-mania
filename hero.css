@@ -116,6 +116,7 @@ color: #FF5400;
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    
 
 }
 
@@ -129,6 +130,7 @@ color: #FF5400;
     border-radius: 5px;
     gap: 30px;
     justify-content: center;
+    border: 0;
     
 
 
@@ -313,3 +315,156 @@ footer>p{
     text-align: center;
 }
 
+/* media query  */
+@media screen and (max-width:575px){
+
+    body{
+        max-width: 475px;
+        margin: 0 auto;
+
+    }
+    .hero-travel-icon {
+        position: relative;
+        right: 23px;
+
+    
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    nav ul  {
+        position: relative;
+        right: 36px;
+
+    }
+    nav ul li a{
+        margin: 5px;
+    }
+    .header-image{
+        background-size: auto;
+        height: 600px;
+    }
+    .header-title{
+        padding: 0;
+        margin-top: 10px;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 90%;
+        color: #131318;
+    }
+    .header-description{
+        margin-left:16px; ;
+        width: 80%;
+        text-align: center;
+        color: #5A5A5D;
+
+    }
+    .box-parent{
+        position: relative;
+        left: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        margin-top: 10px;
+    }
+    .btn-primary{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .popular-tour-section{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 50px;
+
+    }
+    .popular-img>img{
+        margin: 0;
+        width: 80%;
+        margin-top: 30px;
+    }
+    .destination-description{
+        width: 50%;
+    }
+    .img-container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .choose-us-description{
+        width: 70%;
+    }
+    .choose-us-container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .best-price-area{
+        width: 80%;
+        margin: 10px auto;
+        padding: 0;
+        height: auto;
+    }
+   .text-des{
+    padding: 30px;
+
+   }
+   .get-lost{
+    margin: 0;
+   }
+   .popular-tour-title{
+    font-size: 2rem;
+   }
+   .popular-text-content{
+    width: auto;
+
+   }
+   .popular-tour-description{
+    width: 90%;
+   }
+   .get-lost>ul {
+    margin-right: 30px;
+    margin-bottom: 20px;
+
+   }
+   .popular-img iframe{
+    width: auto;
+    margin-top: 20px;
+   }
+   .login-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px auto;
+    align-items: flex-start;
+   }
+   .form-container{
+    width: 80%;
+   }
+   .login-img-div img{
+     width: 100%;
+   }
+   .btn-discount{
+    position: relative;
+    left: 70px;
+    width: 80%;
+    height: 80%;
+    bottom: 115px;
+   }
+   .hero-travel-icon-footer{
+    width: 90%;
+    margin-left: 80px;
+   }
+   .footer-description{
+    width: 90%;
+   }
+   
+}
